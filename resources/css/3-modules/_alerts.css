@@ -1,0 +1,24 @@
+.alert {
+    @apply .rounded .p-6;
+    clear: both;
+}
+
+.alert-info {
+    @apply .alert .bg-blue .text-white;
+}
+
+.alert-info a {
+    @apply .text-white;
+}
+
+.alert-success {
+    @apply .alert .bg-green-light .text-green-darker;
+}
+
+.alert-warning {
+    @apply .alert .bg-orange .text-orange-dark;
+}
+
+.alert-danger {
+    @apply .alert .bg-red-light .text-white;
+}

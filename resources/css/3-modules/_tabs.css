@@ -1,0 +1,39 @@
+.tabs {
+    @apply .border .border-tabs-border .inline-block .list-reset .rounded .p-1;
+}
+
+.tabs li {
+    @apply .flex .float-left .text-sm .border-r .border-tabs-border;
+}
+
+.tabs li:last-child {
+    @apply .border-0;
+}
+
+.tabs li:first-child {
+    @apply .pr-1;
+}
+
+.tabs li:not(:first-child):not(:last-child) {
+    @apply .px-1;
+}
+
+.tabs li:last-child {
+    @apply .pl-1;
+}
+
+.tabs a {
+    @apply .p-3 .px-4 .text-grey .rounded;
+    transition: all 300ms ease-in-out;
+    transition-property: background-color, border-color, box-shadow, color;
+}
+
+.tabs li:hover a {
+    @apply .button-active .rounded;
+}
+
+.tabs li a.active {
+    @apply .button-active .rounded;
+    /** zoom out effect */
+    /*transform: scale(1.3);*/
+}

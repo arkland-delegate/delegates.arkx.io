@@ -1,0 +1,19 @@
+.page-transactions .info-list {
+    @apply .font-light;
+}
+
+.page-transactions .info-list li {
+    @apply .border-grey-lighterester .flex .items-center;
+}
+
+.page-transactions .info-list li span {
+    @apply .font-light .leading-semi-loose;
+}
+
+.page-transactions .info-list li span:nth-child(2) {
+    @apply .text-lg .font-normal;
+}
+
+.page-transactions .info-list li span span {
+    @apply .text-blue-lighter .text-xxs;
+}

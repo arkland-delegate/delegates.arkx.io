@@ -1,0 +1,27 @@
+.page-top-100 ul {
+    @apply .px-8 .py-4;
+}
+
+.page-top-100 ul:nth-child(even) {
+    @apply .bg-grey-lightest;
+}
+
+.page-top-100 ul:nth-child(odd) {
+    @apply .bg-grey-evenlighter;
+}
+
+.page-top-100 ul:nth-child(odd) li {
+    @apply .border-grey-medium;
+}
+
+.page-top-100 ul li {
+    @apply .py-4;
+}
+
+.page-top-100 ul li:last-child {
+    @apply .border-0;
+}
+
+.page-top-100 .delegates-status {
+    @apply .rounded .inline .px-2.5 .ml-3 .-mb-1 .h-5.5 .inline-block;
+}

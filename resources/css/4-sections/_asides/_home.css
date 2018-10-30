@@ -1,0 +1,50 @@
+
+
+/**
+ * Those buttons are only used in the right sidebar on this page...
+ */
+.button-blue {
+    @apply .border-blue-lightest .border .text-blue .rounded .p-4.5 .px-6;
+    transition: all 300ms ease-in-out;
+    transition-property: background-color, border-color, box-shadow, color;
+}
+
+.button-blue-hover {
+    @apply .border-blue .text-white .bg-blue .shadow-blue;
+}
+
+.button-blue:hover {
+    @apply .button-blue-hover;
+}
+
+.desktop-aside {
+  @apply .text-center;
+}
+
+.desktop-aside div:first-child {
+  @apply .mt-24;
+}
+
+.desktop-aside div:first-child img {
+  @apply .w-da1/2 .h-auto;
+}
+
+.desktop-aside div:nth-child(2) {
+  @apply .flex .flex-col .h-full .mt-6;
+}
+
+.desktop-aside div:nth-child(2) div {
+  @apply .flex .justify-between .mt-8;
+}
+
+.desktop-aside div:nth-child(2) div a {
+  @apply .button-blue .mx-2 text-sm;
+}
+
+.desktop-aside div:nth-child(2) div a:hover {
+  @apply .button-blue-hover;
+}
+
+.desktop-aside div:nth-child(2) p {
+  @apply .px-6.4;
+}

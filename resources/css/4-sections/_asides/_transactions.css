@@ -1,0 +1,85 @@
+
+.transactions-aside {
+  @apply .px-18 .pt-12;
+}
+
+.transactions-aside h1 {
+  @apply .flex .justify-between .items-center .mb-8;
+}
+
+.transactions-aside h1 span {
+  @apply .font-light;
+}
+
+.transactions-aside h1 i {
+  @apply .text-md;
+}
+
+.transactions-aside h1 a {
+  @apply .text-blue-medium .border-0;
+}
+
+.transactions-aside h1 a:hover {
+  @apply .border-0;
+}
+
+.transactions-aside .balance {
+  @apply .relative .w-full .text-blue-light;
+}
+
+.transactions-aside .balance span {
+  @apply .font-bold .text-sm .font-light;
+  /*@apply .font-bold .text-blue-medium .text-sm .font-light;*/
+}
+
+.transactions-aside .balance h3 {
+  @apply .mt-3;
+}
+
+.transactions-aside .balance h3 span:first-child {
+  @apply .text-2xl;
+}
+
+.transactions-aside .balance h3 span:nth-child(3) {
+  @apply .text-sm;
+}
+
+.transactions-aside .balance .canvas-wrapper {
+  @apply .absolute .w-full .mt-12;
+}
+
+.transactions-aside .balance .canvas-wrapper canvas {
+  @apply .-mt-8 .w-full !important;
+}
+
+.transactions-aside .balance img:nth-child(4) {
+  @apply .mt-8;
+}
+
+.transactions-aside .info-list {
+  @apply .mt-16;
+}
+
+.transactions-aside .info-list li:last-child {
+  @apply .border-0;
+}
+
+.transactions-aside .meter {
+  @apply .bg-grey-lightest .rounded-sm .px-4 .mt-16;
+}
+
+.transactions-aside .meter .content {
+  @apply .flex .flex-row .items-center .justify-between .py-3;
+}
+
+.transactions-aside .meter span {
+  @apply .text-sm;
+}
+
+.transactions-aside .meter .canvas-wrapper {
+  @apply .absolute .-ml-2 .-mt-3;
+}
+
+.transactions-aside .meter h3 {
+  @apply .text-md .font-semibold;
+}

@@ -1,0 +1,23 @@
+.page-auth {
+    @apply .flex .flex-col .items-center .justify-center .m-auto;
+}
+
+.page-auth .content {
+    @apply .w-full .mx-auto .rounded .bg-white .mt-16 .p-12;
+}
+
+.page-auth .content .actions {
+    @apply .flex .flex-row .justify-between .mt-8;
+}
+
+.page-auth .content .actions div {
+    @apply .flex items-center justify-end;
+}
+
+.page-auth .content .actions div a {
+    @apply .text-xs .border-b .border-dashed .border-blue;
+}
+
+.page-auth .emergency-info {
+    @apply .bg-orange .text-orange-dark .rounded-t-none .mt-0 .py-8 .px-10;
+}

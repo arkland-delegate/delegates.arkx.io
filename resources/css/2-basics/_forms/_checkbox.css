@@ -1,0 +1,18 @@
+input[type="checkbox"] {
+  @apply .appearance-none .rounded .border-0;
+  background-image: url("../images/checkbox.png");
+  height: 18px;
+  width: 18px;
+}
+
+input[type="checkbox"]:checked {
+  background-image: url("../images/checkbox-checked.png");
+}
+
+input[type="checkbox"]:disabled {
+  background-image: url("../images/checkbox-disabled.png");
+}
+
+input[type="checkbox"]:disabled:checked {
+  background-image: url("../images/checkbox-disabled-checked.png");
+}

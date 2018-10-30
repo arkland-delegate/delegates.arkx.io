@@ -1,0 +1,7 @@
+.search input[type=text] {
+    @apply .text-sm .bg-input .border-input-border .border .border-r-0;
+}
+
+.search button {
+    @apply .bg-grey-light .border-grey-lighterest .w-full .rounded-sm .p-3 .px-0 .mt-2 .text-grey .border-input-border .border .border-l-0;
+}

@@ -1,0 +1,13 @@
+.page-delegate .general .tags {
+  @apply .flex .flex-row .flex-wrap .justify-start .mt-2 .text-base;
+}
+
+.page-delegate .general .tags a {
+  @apply .bg-orange-lightest .py-2 .px-4 .rounded-full .mr-2 .text-blue-medium .border-0 .font-semibold .text-sm;
+  transition: all 300ms ease-in-out;
+  transition-property: background-color, color;
+}
+
+.page-delegate .general .tags a:hover {
+  @apply .bg-blue-medium .text-orange-lightest;
+}

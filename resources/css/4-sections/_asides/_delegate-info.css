@@ -1,0 +1,48 @@
+
+.delegate-info-aside {
+  @apply .pl-0 .py-12;
+}
+
+.delegate-info-aside h1 {
+  @apply .pl-20 .font-light;
+}
+
+.delegate-info-aside .meter {
+  @apply .bg-green-lighter .flex .items-center .p-6 .pl-20 .rounded-tr .rounded-br .w-3/4 .mb-2;
+}
+
+.delegate-info-aside .meter .canvas-wrapper {
+  @apply .absolute .-ml-2 .-mt-3;
+}
+
+.delegate-info-aside .meter div:nth-child(2) {
+  @apply .ml-6;
+}
+
+.delegate-info-aside .meter span {
+  @apply .text-xs .text-blue-light;
+}
+
+.delegate-info-aside .meter h3 {
+  @apply .text-shadow mt-2 .text-2xl;
+}
+
+.delegate-info-aside .info-list li {
+  @apply .pl-20 .py-5;
+}
+
+.delegate-info-aside .info-list li span:last-child {
+  @apply .font-semibold;
+}
+
+.delegate-info-aside .desc {
+  @apply .pl-20;
+}
+
+.delegate-info-aside .desc a {
+  @apply .border-0;
+}
+
+.delegate-info-aside .desc p {
+  @apply .my-8;
+}

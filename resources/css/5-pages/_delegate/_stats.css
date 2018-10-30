@@ -1,0 +1,15 @@
+.page-delegate .delegate-stats {
+  @apply .flex .items-center .mt-10 .w-1/2 .justify-center;
+}
+
+.page-delegate .delegate-stats div {
+  @apply .mr-8 .pr-8 .border-r .border-grey-lighter;
+}
+
+.page-delegate .delegate-stats div p {
+  @apply .font-semibold .text-md .font-sans;
+}
+
+.page-delegate .delegate-stats div:last-child {
+  @apply .mr-0 .pr-0 .border-0;
+}

@@ -1,0 +1,138 @@
+.left-nav {
+    @apply .border-r .border-grey-lighter .border-solid .hidden .p-3 .absolute .pin-y .bg-grey-lightest .overflow-hidden .fixed .z-10;
+}
+
+.left-nav a {
+    @apply .border-0;
+}
+
+.left-nav i {
+    vertical-align: middle;
+}
+
+.left-nav .nav-bar {
+    @apply .flex .flex-col .h-full .mt-4 .text-center;
+}
+
+.left-nav .nav-bar ul {
+    @apply .list-reset .cursor-pointer .h-full;
+}
+
+.left-nav .nav-bar ul li {
+    @apply .py-4 .text-grey;
+}
+
+.left-nav .nav-bar ul li:hover {
+    @apply .text-blue;
+}
+
+.left-nav .nav-bar ul li a {
+    @apply .text-grey .no-underline .font-semibold .block;
+}
+
+.left-nav .nav-bar ul li a:hover {
+    @apply .text-blue .no-underline .border-0;
+}
+
+.brand img {
+    @apply .h-brand-img .w-brand-img;
+}
+
+.divider {
+    @apply .border-b .py-0 !important;
+    border-color: #e4e7ed;
+}
+
+/**
+ * Notification Badges...
+ */
+.notification-badge,
+.notification-badge-mobile {
+    @apply .relative;
+}
+
+.notification-badge span {
+    @apply .bg-red .rounded .px-1 .py-0.5 .text-xxs .text-white .absolute .inline-block;
+    top: -3px;
+    right: 8px;
+}
+
+.notification-badge-mobile span {
+    @apply .bg-red .rounded .px-1 .py-0.5 .text-xxs .text-white .absolute .inline-block;
+    top: -6px;
+    right: -8px;
+}
+
+
+
+/**
+ * Mobile Navbar...
+ */
+.nav-mobile {
+  @apply .fixed .py-5 .pin-l .pin-t .bg-white .overflow-hidden .h-full .text-blue-medium .text-left .text-sm .shadow-grey .text-center .w-16;
+  top: 64px;
+  z-index: 9999;
+}
+
+.nav-mobile ul {
+    @apply .list-reset;
+}
+
+.nav-mobile ul li:hover {
+    @apply .bg-nav-mobile-active .shadow-none .text-blue !important;
+}
+
+.nav-mobile ul li.active {
+    @apply .bg-nav-mobile-active .shadow-none !important;
+}
+
+.nav-mobile ul li.active a {
+    @apply .text-blue !important;
+}
+
+.nav-mobile ul li a {
+    @apply .px-6 .py-3 .inline-block .text-grey;
+}
+
+.nav-mobile ul li:hover a {
+    @apply .text-blue;
+}
+
+/**
+ * Top
+ */
+.nav-top {
+    @apply .border-b .border-grey-lighter .border-solid .p-3 .bg-grey-lightest .overflow-hidden .hidden;
+}
+
+.nav-top a {
+    @apply .border-0;
+}
+
+.nav-top i {
+    vertical-align: middle;
+}
+
+.nav-top .nav-bar {
+    @apply .flex .flex-wrap;
+}
+
+.nav-top .nav-bar ul {
+    @apply .list-reset .cursor-pointer .flex .flex-wrap;
+}
+
+.nav-top .nav-bar ul li {
+    @apply .px-4 .py-3 .text-grey;
+}
+
+.nav-top .nav-bar ul li:hover {
+    @apply .text-blue;
+}
+
+.nav-top .nav-bar ul li a {
+    @apply .text-grey .no-underline .font-semibold .block;
+}
+
+.nav-top .nav-bar ul li a:hover {
+    @apply .text-blue .no-underline .border-0;
+}

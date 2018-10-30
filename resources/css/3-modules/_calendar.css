@@ -1,0 +1,33 @@
+.calendar {
+    padding: 15px 15px 10px;
+    position: relative;
+    border-width: 1px;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.calendar-header {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 7px;
+    border-bottom-width: 1px;
+    display: block;
+}
+
+.calendar-green {
+    @apply .calendar .text-calendar-green-primary .bg-calendar-green-accent .border-calendar-green-secondary;
+}
+
+.calendar-green .header {
+    @apply .calendar-header .border-calendar-green-secondary;
+}
+
+.calendar-grey {
+    @apply .calendar .text-calendar-grey-primary .bg-calendar-grey-accent .border-calendar-grey-secondary;
+}
+
+.calendar-grey .header {
+    @apply .calendar-header .border-calendar-grey-secondary;
+}

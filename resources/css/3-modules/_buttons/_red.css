@@ -1,0 +1,13 @@
+.button-red {
+    @apply .button .text-white .border .border-transparent;
+    background: #e53e4d;
+}
+
+.button-red-hover {
+    @apply .text-white .shadow-red;
+    background: #ff4051;
+}
+
+.button-red:hover {
+    @apply .button-red-hover;
+}

@@ -1,0 +1,62 @@
+.delegates-aside {
+  @apply .text-left .py-12 .px-18;
+}
+
+.delegates-aside h1 {
+  @apply .font-thin .tracking-normal;
+}
+
+.delegates-aside p {
+  @apply .mt-8 .text-md;
+}
+
+.delegates-aside a {
+  @apply .text-sm;
+}
+
+.delegates-aside h2,
+.delegates-aside h3 {
+  @apply .mb-8;
+}
+
+.delegates-aside h3 {
+  @apply .text-3xl .text-shadow;
+}
+
+.delegates-aside .progress-line {
+  background: transparent;
+  box-shadow: 0px 0px 8px 0px rgba(65, 175, 114, 0.5)
+}
+
+.delegates-aside div:nth-child(3) {
+  @apply .relative .w-full .mb-9;
+}
+
+.delegates-aside .canvas-wrapper {
+  @apply .absolute .w-full;
+  margin-top: .55rem;
+}
+
+.delegates-aside p.desc {
+  @apply .leading-semi-loose .font-hairline;
+}
+
+.delegates-aside p.desc a {
+  @apply .border-0;
+}
+
+.delegates-aside .info-list {
+  @apply .mb-12;
+}
+
+.delegates-aside .info-list li span:first-child {
+  @apply .font-hairline;
+}
+
+.delegates-aside .info-list li:first-child {
+  @apply .border-t;
+}
+
+.delegates-aside .info-list li:last-child {
+  @apply .border-0;
+}

@@ -1,0 +1,99 @@
+.v-select .dropdown-toggle {
+    @apply .bg-input .border-input-border .w-full .rounded .text-blue-medium !important;
+    height: 44px;
+    padding: 12px !important;
+}
+
+.v-select.open .dropdown-toggle {
+    @apply .border-blue !important;
+}
+
+.v-select .dropdown-menu,
+.v-select .dropdown-menu * {
+    @apply .shadow-none !important;
+}
+
+.v-select .dropdown-menu {
+    @apply .border-none .p-0 .shadow-grey !important;
+    margin-top: -1px !important;
+}
+
+.v-select .selected-tag {
+    @apply .text-blue-medium !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    line-height: normal !important;
+}
+
+.v-select .dropdown-menu li {
+    border-bottom: 1px solid #eef0f9 !important;
+}
+
+.v-select .dropdown-menu li:last-child {
+    @apply .border-none !important;
+}
+
+.v-select .dropdown-menu li a {
+    @apply .px-3 .py-4 !important;
+    transition: all 300ms ease-in-out;
+    transition-property: background-color, border-color, box-shadow, color;
+}
+
+.v-select .dropdown-menu .highlight a {
+    @apply .bg-white .text-blue-medium !important;
+}
+
+.v-select .dropdown-menu li:hover a {
+    @apply .bg-blue .text-white !important;
+}
+
+.v-select .dropdown-menu .active a {
+    @apply .bg-grey-light .text-blue-medium !important;
+}
+
+.v-select .clear {
+    display: none !important;
+}
+
+.v-select .open-indicator {
+    top: 0 !important;
+    bottom: 0 !important;
+    right: 0 !important;
+    height: auto !important;
+    padding: 13px 8px;
+    width: auto !important;
+}
+
+.v-select .open-indicator:before {
+    display: none !important;
+}
+
+.v-select .open-indicator:after {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background: #e4eaf7;
+    color: #414d77;
+    content: "\F107";
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-family: 'Font Awesome 5 Pro';
+    font-weight: 100;
+    font-style: normal;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 25px;
+    border-radius: 0 .25rem .25rem 0;
+}
+
+.v-select.open .open-indicator:after {
+    background: #3454f5;
+    color: #ffffff;
+    content: "\F106";
+}

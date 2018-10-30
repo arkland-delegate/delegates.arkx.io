@@ -1,0 +1,11 @@
+.button-grey {
+    @apply .button .bg-grey-medium .text-blue .border .border-grey-lighterestish;
+}
+
+.button-grey-hover {
+    @apply .border-blue .text-white .bg-blue .shadow-blue;
+}
+
+.button-grey:hover {
+    @apply .button-grey-hover;
+}

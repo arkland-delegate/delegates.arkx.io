@@ -1,0 +1,75 @@
+/**
+ * Pager...
+ */
+
+.button-pager {
+    @apply .bg-control .text-blue .p-3 .rounded .text-sm .overflow-hidden;
+}
+
+.button-pager-hover {
+    @apply .text-white .bg-control-hover .shadow-blue !important;
+}
+
+.button-pager-hover-span {
+    @apply .text-white .bg-control-hover-aside;
+}
+
+.button-pager-span {
+    @apply .bg-control-aside .p-3;
+}
+
+/**
+ * Pager - Previous...
+ */
+
+.button-prev {
+    @apply .button-pager .pl-0;
+}
+
+.button-prev span {
+    @apply .button-pager-span .mr-3 .rounded-tl .rounded-bl;
+}
+
+.button-prev-hover {
+    @apply .button-pager-hover;
+}
+
+.button-prev-hover span {
+    @apply .button-pager-hover-span;
+}
+
+.button-prev:hover {
+    @apply .button-prev-hover;
+}
+
+.button-prev:hover span {
+    @apply .button-pager-hover-span;
+}
+
+/**
+ * Pager - Next...
+ */
+
+.button-next {
+    @apply .button-pager .pr-0;
+}
+
+.button-next span {
+    @apply .button-pager-span .ml-3 .rounded-tr .rounded-br;
+}
+
+.button-next-hover {
+    @apply .button-pager-hover;
+}
+
+.button-next-hover span {
+    @apply .button-pager-hover-span;
+}
+
+.button-next:hover {
+    @apply .button-next-hover;
+}
+
+.button-next:hover span {
+    @apply .button-pager-hover-span;
+}

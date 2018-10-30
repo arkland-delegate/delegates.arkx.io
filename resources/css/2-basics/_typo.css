@@ -1,0 +1,52 @@
+body {
+  @apply .bg-grey-lightest .text-blue-medium .break-words .w-full;
+}
+
+a {
+  @apply .text-blue .no-underline;
+}
+
+a:hover {
+  @apply .text-blue;
+  /*@apply .border-b-2 .border-blue .border-solid .opacity-70;*/
+}
+
+h1 {
+  @apply .text-4xl .font-normal;
+}
+
+h2 {
+  @apply .text-2xl .font-light;
+}
+
+h3 {
+  @apply .text-xl .font-normal;
+}
+
+h4 {
+  @apply .text-lg;
+}
+
+h1 a,
+h2 a,
+h3 a {
+  @apply .text-blue-medium .border-0;
+}
+
+h1 a:hover,
+h2 a:hover,
+h3 a:hover {
+  @apply .border-0 !important;
+}
+
+p {
+  @apply .leading-semi-loose .text-sm;
+}
+
+.muted * {
+    @apply .text-blue-lighter;
+}
+
+.break-all {
+    word-break: break-all;
+}

@@ -1,0 +1,13 @@
+.vue-js-switch .v-switch-core {
+    background-color: #e6eaef !important;
+    border-radius: 2px !important;
+}
+
+.vue-js-switch .v-switch-core .v-switch-button {
+    background-color: #d4d9df !important;
+    border-radius: 2px !important;
+}
+
+.vue-js-switch.toggled .v-switch-core .v-switch-button {
+    background-color: #52b67e !important;
+}

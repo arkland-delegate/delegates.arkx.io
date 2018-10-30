@@ -1,0 +1,15 @@
+.button-orange {
+    @apply .button .border .border-transparent;
+    background: #faa540;
+    color: #bb592d;
+}
+
+.button-orange-hover {
+    @apply .shadow-orange;
+    background: #ffba67;
+    color: #bb592d;
+}
+
+.button-orange:hover {
+    @apply .button-orange-hover;
+}

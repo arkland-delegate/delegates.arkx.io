@@ -1,0 +1,32 @@
+.border-collapse {
+  border-collapse: collapse;
+}
+
+.highlight {
+  @apply .bg-yellow .rounded;
+}
+
+.profit-calculator-box-shadow {
+  box-shadow: 0px 16px 29px 0px rgba(206, 218, 235, 0.48), inset 0px -5px 0px 0px rgba(230, 239, 250, 0.5);
+}
+
+.white-mask {
+  @apply .fixed .pin .opacity-70 .bg-white .z-0;
+}
+
+.text-shadow {
+  text-shadow: -3px 3px 0 #b6e0c9;
+}
+
+.percentage-meter {
+    top: -8px;
+    left: -3px;
+}
+
+* {
+ outline: none !important;
+}
+
+.mti-0 {
+    @apply .mt-0 !important;
+}

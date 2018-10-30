@@ -1,0 +1,42 @@
+aside {
+  @apply .w-da1 .fixed .p-20 .pin-r .pin-t .bg-white .overflow-hidden .h-full .text-blue-medium .text-left .text-sm;
+}
+
+aside.overlay {
+  @apply .block .z-20;
+  margin-top: 98px;
+}
+
+aside h1 {
+  @apply .mb-6 .tracking-wider;
+}
+
+aside .info-list {
+  @apply .font-hairline;
+}
+
+aside .info-list li {
+  @apply .py-5;
+}
+
+aside .info-list li span:first-child {
+  @apply .text-blue-light;
+}
+
+aside .info-list li span:last-child {
+  @apply .text-blue-light .font-bold;
+}
+
+aside .info-list li span:nth-child(2) {
+  @apply .text-md;
+}
+
+@responsive {
+  .overlay-xxs {
+    @apply .w-full;
+  }
+
+  .overlay-sm {
+    @apply .w-da1;
+  }
+}

@@ -1,0 +1,11 @@
+.button-ghost {
+    @apply .button .border .border-grey-lighterestest .text-grey-dark .text-sm;
+}
+
+.button-ghost-hover {
+    @apply .border-blue .bg-blue .shadow-blue .text-white !important;
+}
+
+.button-ghost:hover {
+    @apply .button-ghost-hover;
+}

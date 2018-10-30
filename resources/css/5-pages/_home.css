@@ -1,0 +1,527 @@
+@responsive {
+  .page-home-wrapper-sm {
+    background: url("/images/arkx.svg") no-repeat top right -12rem;
+    background-size: 350px;
+  }
+
+  .page-home-wrapper-md {
+    background: url("/images/arkx.svg") no-repeat top -89px right;
+  }
+
+  .page-home-wrapper-lg {
+    background: url("/images/arkx.svg") no-repeat top -55px right;
+  }
+
+  .page-home-wrapper-xxs .page-home-header {
+    @apply .border-b-2 .border-grey-lighter .p-8 .pt-16 .pb-14 .w-full;
+  }
+
+  .page-home-wrapper-sm .page-home-header {
+    @apply .w-3/4 .pb-10;
+  }
+
+  .page-home-wrapper-md .page-home-header {
+    @apply .w-62p;
+  }
+
+  .page-home-wrapper-lg .page-home-header {
+    @apply .w-1/2 .pb-14;
+  }
+
+  .page-home-wrapper-xxs .page-home-header ul {
+    @apply .justify-between .w-full;
+  }
+
+  .page-home-wrapper-md .page-home-header ul {
+    @apply .justify-start;
+  }
+
+  .page-home-wrapper-md .page-home-header ul li {
+    @apply .mr-14;
+  }
+
+  .page-home-wrapper-xxs .page-home-header ul li label {
+    @apply .text-blue-lighter .text-base;
+  }
+
+  .page-home-wrapper-xxs .page-home-header ul li h3 {
+    @apply .text-xl .text-shadow .mt-2;
+  }
+
+  .page-home-wrapper-md .page-home-header ul li h3 {
+    @apply .text-2xl;
+  }
+
+  .page-home-wrapper-lg .page-home-header ul li h3 {
+    @apply .text-1.5xl;
+  }
+
+  .page-home-wrapper-xxs .page-home-header p:first-child {
+    @apply .text-2xl .leading-none;
+  }
+
+  .page-home-wrapper-xxs .page-home-header p:first-child span {
+    @apply;
+  }
+
+  .page-home-wrapper-xxs .page-home-header p:nth-child(2) {
+    @apply .text-md .mt-1;
+  }
+
+  .page-home-wrapper-xxs .page-home-header ul {
+    @apply .list-reset .flex .mt-6;
+  }
+}
+
+.page-home-bg-xxs {
+  background: url('/images/arkx_background_xs.png') no-repeat bottom 504px right;
+}
+
+.page-home-bg-xs {
+  background: url('/images/arkx_background_xs.png') no-repeat bottom 636px right;
+}
+
+.page-home-bg-sm {
+  background: url('/images/arkx_background_sm.png') no-repeat top 418px right;
+}
+
+.page-home-bg-md {
+  background: url('/images/arkx_background_md.png') no-repeat top 350px center;
+}
+
+.page-home-bg-lg {
+  background: url('/images/arkx_background_lg.png') no-repeat top 350px left 35px;
+}
+
+.page-home-bg-xl {
+  background: url('/images/arkx_background_xl.png') no-repeat bottom 390px left 95px;
+}
+
+@responsive {
+  .page-home-xxs {
+    @apply .page-home-bg-xxs .mx-auto .p-0 .pt-12;
+  }
+
+  .page-home-xs {
+    @apply .page-home-bg-xs .p-8;
+  }
+
+  .page-home-sm {
+    @apply .page-home-bg-sm .p-6;
+  }
+
+  .page-home-md {
+    @apply .page-home-bg-md .ml-8 .mr-8
+  }
+
+  .page-home-lg {
+    @apply .page-home-bg-lg .ml-0 .mr-0;
+  }
+
+  .page-home-xl {
+    @apply .page-home-bg-xl .p-24;
+  }
+
+  .homepage {
+    background: url("/images/arkx_corner.svg") no-repeat top left;
+    background-size: 200px;
+  }
+
+  /* CORE */
+  .page-home-xxs .content {
+    @apply .mx-6 .my-4;
+  }
+
+  .page-home-xs .content {
+    @apply .m-0;
+  }
+
+  .page-home-sm .content {
+    @apply .w-1/2;
+  }
+
+  .page-home-xl .content {
+    @apply .w-2/5;
+  }
+
+  .page-home-xxs .content p {
+    @apply .text-md .mt-3.5 .mb-3.5;
+  }
+
+  .page-home-xxs .content p:first-child {
+    @apply .mb-6;
+  }
+
+  .page-home-xxs .content h2 {
+    @apply .mb-3 .font-thin;
+  }
+
+  .page-home-sm .content h2 {
+    @apply .text-3xl;
+  }
+
+  .page-home-xxs .media {
+    @apply .w-full .pl-4 .pr-4;
+  }
+
+  .page-home-sm .media {
+    @apply .w-1/2
+  }
+
+  .page-home-md .media {
+    @apply .pl-8 .pr-0;
+  }
+
+  .page-home-xl .media {
+    @apply .w-1/4;
+  }
+
+  .page-home-xxs .media h2 {
+    @apply .mb-3;
+  }
+
+  /* BLOCKS */
+  .page-home-xxs .balance-tracking {
+    @apply .items-center .justify-start;
+  }
+
+  .page-home-xs .balance-tracking {
+    @apply .mt-4;
+  }
+
+  .page-home-sm .balance-tracking {
+    @apply .flex .justify-between .mt-12;
+  }
+
+  .page-home-md .balance-tracking {
+    @apply .justify-start;
+  }
+
+  .page-home-lg .balance-tracking {
+    @apply .mt-18;
+  }
+
+  .page-home-xl .balance-tracking .content {
+    @apply .pl-20;
+  }
+
+  .page-home-sm .balance-tracking .content {
+    @apply .w-9/20;
+  }
+
+  .page-home-md .balance-tracking .content {
+    @apply .w-1/2 ml-12;
+  }
+
+  .page-home-xl .balance-tracking .content {
+    @apply .w-2/5 ml-0 pl-0;
+  }
+
+  .page-home-sm .balance-tracking .media {
+    @apply .-ml-22px .pl-0;
+  }
+
+  .page-home-md .balance-tracking .media {
+    @apply .w-2/5;
+  }
+
+  .page-home-lg .balance-tracking .media {
+    @apply .w-9/20;
+  }
+
+  .page-home-xl .balance-tracking .media {
+    @apply .w-1/3;
+  }
+
+  .page-home-xxs .customization {
+    @apply .block .items-center .justify-end .mt-12;
+  }
+
+  .page-home-sm .customization {
+    @apply .flex .justify-end .mt-0;
+  }
+
+  .page-home-lg .customization {
+    @apply .justify-around .mt-0;
+  }
+
+  .page-home-xl .customization {
+    @apply .justify-end;
+  }
+
+  .page-home-sm .customization .content {
+    @apply .w-9/20;
+  }
+
+  .page-home-md .customization .content {
+    @apply .w-7/20;
+  }
+
+  .page-home-lg .customization .content {
+    @apply .w-9/20;
+  }
+
+  .page-home-xl .customization .content {
+    @apply .w-1/3 mr-16;
+  }
+
+  .page-home-xxs .customization .content span {
+    @apply .bg-orange-lightest;
+  }
+
+  .page-home-xxs .customization .media {
+    @apply .hidden;
+  }
+
+  .page-home-xs .customization .media {
+    @apply .block .mt-6;
+  }
+
+  .page-home-sm .customization .media {
+    @apply .pr-0 -mr-22px;
+  }
+
+  .page-home-md .customization .media {
+    @apply w-2/5;
+  }
+
+  .page-home-lg .customization .media {
+    @apply w-1/2 pl-0 -mr-22px mt-0;
+  }
+
+  .page-home-xl .customization .media {
+    @apply w-7/20;
+  }
+
+  .page-home-xxs .calculator {
+    @apply .flex .flex-col .items-center .text-left .mt-28;
+  }
+
+  .page-home-xs .calculator {
+    @apply .mt-16;
+  }
+
+  .page-home-sm .calculator {
+    @apply .mt-36;
+  }
+
+  .page-home-md .calculator {
+    @apply .mt-16;
+  }
+
+  .page-home-lg .calculator {
+    @apply .mt-12;
+  }
+
+  .page-home-xl .calculator {
+    @apply .flex-row .mt-32;
+  }
+
+  .page-home-xxs .calculator .content {
+    @apply .w-auto;
+  }
+
+  .page-home-sm .calculator .content {
+    @apply .w-3/4
+  }
+
+  .page-home-md .calculator .content {
+    @apply .w-3/5
+  }
+
+  .page-home-lg .calculator .content {
+    @apply .ml-8;
+  }
+
+  .page-home-xl .calculator .content {
+    @apply .ml-16 .w-7/20 mr-16;
+  }
+
+  .page-home-xxs .calculator .media {
+    @apply .text-left .w-full .px-6;
+  }
+
+  .page-home-xs .calculator .media {
+    @apply .p-0 .mt-4;
+  }
+
+  .page-home-sm .calculator .media {
+    @apply .w-5/6 .flex .items-center .justify-center;
+  }
+
+  .page-home-md .calculator .media {
+    @apply .w-7/10;
+  }
+
+  .page-home-lg .calculator .media {
+    @apply .w-4/5;
+  }
+
+  .page-home-xl .calculator .media {
+    @apply .w-9/20;
+  }
+
+  .page-home-xxs .profit-calculator {
+    @apply .p-8 .profit-calculator-box-shadow .rounded .bg-white;
+  }
+
+  .page-home-sm .profit-calculator {
+    @apply .flex flex-row .p-14;
+  }
+
+  .page-home-xl .profit-calculator {
+    @apply p-12
+  }
+
+  .page-home-sm .profit-calculator div:first-child {
+    @apply w-2/5
+  }
+
+  .page-home-xs .profit-calculator div:first-child label {
+    @apply .text-sm;
+  }
+
+  .page-home-xxs .profit-calculator ul {
+    @apply .list-reset .mt-6;
+  }
+
+  .page-home-xs .profit-calculator ul {
+    @apply .flex .justify-start;
+  }
+
+  .page-home-sm .profit-calculator ul {
+    @apply .mt-0;
+  }
+
+  .page-home-xxs .profit-calculator ul li {
+    @apply .flex .justify-between .items-center .mt-2;
+  }
+
+  .page-home-xs .profit-calculator ul li {
+    @apply .block;
+  }
+
+  .page-home-sm .profit-calculator ul li {
+    @apply .mt-0;
+  }
+
+  .page-home-xs .profit-calculator ul li:first-child {
+    @apply .mr-16;
+  }
+
+  .page-home-sm .profit-calculator ul li:first-child {
+    @apply .ml-8;
+  }
+
+  .page-home-xl .profit-calculator ul li:first-child {
+    @apply .ml-6 mr-8;
+  }
+
+  .page-home-xxs .profit-calculator ul li label {
+    @apply .text-md;
+  }
+
+  .page-home-xs .profit-calculator ul li label {
+    @apply .text-sm;
+  }
+
+  .page-home-xxs .profit-calculator ul li p {
+    @apply .text-green-darker .text-md;
+  }
+
+  .page-home-xs .profit-calculator ul li p {
+    @apply .mt-1 .text-1.5xl;
+  }
+
+  .page-home-sm .profit-calculator ul li p {
+    @apply .mt-4;
+  }
+
+  .page-home-xxs .servers {
+    @apply .items-center .mt-14;
+  }
+
+  .page-home-lg .servers {
+    @apply .mt-16;
+  }
+
+  .page-home-xl .servers {
+    @apply .flex;
+  }
+
+  .page-home-xxs .servers .content {
+    @apply .inline-block .mt-8 .w-auto;
+  }
+
+  .page-home-lg .servers .content {
+    @apply .px-12
+  }
+
+  .page-home-xl .servers .content {
+    @apply .hidden;
+  }
+
+  .page-home-xxs .servers .content p {
+    @apply .w-full;
+  }
+
+  .page-home-xxs .servers .content2 {
+    @apply .hidden;
+  }
+
+  .page-home-xl .servers .content2 {
+    @apply .inline .pl-8 .w-2/5 mt-10;
+  }
+
+  .page-home-xl .servers .content2 h2 {
+    @apply .mb-3;
+  }
+
+  .page-home-xl .servers .content2 p {
+    @apply .text-sm;
+  }
+
+  .page-home-xxs .servers .media {
+    @apply .text-left .w-full;
+  }
+
+  .page-home-xs .servers .media {
+    @apply .text-center .mx-0 .px-0;
+  }
+
+  .page-home-sm .servers .media {
+    @apply .text-right
+  }
+
+  .page-home-md .servers .media {
+    @apply .text-center;
+  }
+
+  .page-home-xl .servers .media {
+    @apply .inline w-1/2;
+  }
+
+  .page-home-xxs .servers .media img:first-child {
+    @apply .pl-1;
+  }
+
+  .page-home-xs .servers .media img:first-child {
+    @apply .hidden;
+  }
+
+  .page-home-xxs .servers .media img:nth-child(2) {
+    @apply .hidden;
+  }
+
+  .page-home-xs .servers .media img:nth-child(2) {
+    @apply .inline-block .mt-6;
+  }
+
+  .page-home-xxs .footer {
+    @apply .p-6 .mt-6;
+  }
+
+  .page-home-xs .footer {
+    @apply .flex .justify-between .items-end .p-0 .pb-8;
+  }
+}

@@ -1,0 +1,23 @@
+.notification-unread {
+    @apply .bg-green-lightest;
+}
+
+.notification-unread .date {
+    @apply .text-green-medium;
+}
+
+.notification-read {
+    @apply .bg-grey-lighter;
+}
+
+.notification-read .date {
+    @apply .text-grey;
+}
+
+.notification-reading {
+    @apply .bg-white;
+}
+
+.notification-reading .date {
+    @apply .text-grey;
+}

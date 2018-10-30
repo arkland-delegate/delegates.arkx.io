@@ -1,0 +1,18 @@
+input[type="radio"] {
+  @apply .appearance-none .rounded .border-0;
+  background-image: url("../images/radio.png");
+  height: 18px;
+  width: 18px;
+}
+
+input[type="radio"]:checked {
+  background-image: url("../images/radio-checked.png");
+}
+
+input[type="radio"]:disabled {
+  background-image: url("../images/radio-disabled.png");
+}
+
+input[type="radio"]:disabled:checked {
+  background-image: url("../images/radio-disabled-checked.png");
+}

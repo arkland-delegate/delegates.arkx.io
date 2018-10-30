@@ -1,0 +1,15 @@
+.page-transaction .amount span {
+    @apply .text-green-ish .text-sm .mb-2 .inline-block;
+}
+
+.page-transaction .amount h3 {
+    @apply .text-green-mediumer .font-sans .font-normal;
+}
+
+.page-transaction .info-list li {
+    @apply .border-grey-lighterester .flex .items-center .px-8 .py-6;
+}
+
+.page-transaction .info-list li span {
+    @apply .font-normal .leading-semi-loose .break-all;
+}

@@ -1,0 +1,20 @@
+
+.profit-aside {
+  @apply .text-left .py-12;
+}
+
+.profit-aside h1 {
+  @apply .mb-8;
+}
+
+.profit-aside img {
+  @apply .mb-8;
+}
+
+.profit-aside p {
+  @apply .my-8 .leading-semi-loose;
+}
+
+.profit-aside p:nth-child(2) {
+  @apply .my-8;
+}

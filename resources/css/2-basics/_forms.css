@@ -1,0 +1,35 @@
+input[type="email"], input[type="password"], input[type="text"], input[type="number"], input[type="url"], input[type="file"], select, textarea {
+  @apply .bg-input .border-input-border .mt-2 .w-full .rounded .p-3;
+}
+
+input, select, textarea {
+  @apply .border .border-input-border;
+}
+
+input {
+    @apply .bg-grey-light .border .border-grey-lighterest .mt-2 w-full .rounded-sm;
+}
+
+textarea  {
+    @apply .bg-grey-light .border .border-grey-lighterest .mt-2 w-full .rounded-sm;
+}
+
+input:read-only {
+  @apply .bg-input-readonly .text-text-readonly;
+}
+
+.input-focus {
+  @apply .bg-input-focus .border-input-focus-border !important;
+}
+
+.input-error {
+  @apply .bg-input-error .border-input-error-border !important;
+}
+
+input:focus, textarea:focus {
+  @apply .input-focus;
+}
+
+*:focus {
+    outline: none;
+}

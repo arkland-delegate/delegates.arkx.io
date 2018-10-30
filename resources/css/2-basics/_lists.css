@@ -1,0 +1,15 @@
+.info-list {
+  @apply .list-reset .w-full;
+}
+
+.info-list li {
+  @apply .flex .justify-between .py-8 .border-b .border-grey-light;
+}
+
+.info-list li span {
+  @apply .font-thin .text-sm .text-blue-medium;
+}
+
+.info-list li span:last-child {
+  @apply .font-normal;
+}

@@ -1,0 +1,11 @@
+.button-green {
+    @apply .button .bg-green-dark .text-white .border .border-green;
+}
+
+.button-green-hover {
+    @apply .border-green-hover .text-white .bg-green-hover .shadow-green;
+}
+
+.button-green:hover {
+    @apply .button-green-hover;
+}
